@@ -1,0 +1,20 @@
+{
+  "name": "vue-study",
+  "version": "0.0.0",
+  "authors": [
+    "tyshcg <hello@tyshgc.pw>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery.easie.js": "~1.0.2",
+    "vue": "~0.10.6"
+  }
+}

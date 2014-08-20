@@ -1,0 +1,31 @@
+{
+  "name": "vue-study",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tsuyoshi higuchi",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.3.9",
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.7",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-coffee": "^2.1.1",
+    "gulp-connect": "^2.0.6",
+    "gulp-requirejs": "^0.1.3",
+    "main-bower-files": "^1.0.2"
+  },
+  "dependencies": {
+    "core-util-is": "^1.0.1",
+    "gulp-jade": "^0.7.0",
+    "gulp-load-plugins": "^0.5.3",
+    "isarray": "0.0.1",
+    "readable-stream": "^1.0.27-1",
+    "source-map": "^0.1.38",
+    "uglify-js": "^2.4.15"
+  }
+}

@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Vue Get Vine
+    
+  body
+    h1 vine populer
+    
+    ul#list
+        li(v-repeat="items")
+            dl
+            dt User Name: {{username}}
+            dd
+                a(href="/")
+                    img(src="{{thumbnailUrl}}")
+    
+    script(src="/assets/javascripts/builds/libs/jquery.js")
+    script(src="/assets/javascripts/builds/libs/vue.js")
+    script(src="/assets/javascripts/main.js")
